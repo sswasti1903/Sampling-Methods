@@ -1,5 +1,5 @@
 # Sampling-Methods
-A repository to show the implementation of different  sampling methods on a credit card fraud dataset.
+A repository to show the implementation of different sampling methods on a credit card fraud dataset.
 
 ## Dataset
 The credit card fraud dataset used in this project is sourced from the following URL:
@@ -42,32 +42,27 @@ Following this, I examined where different models were employed on separate samp
 
 **1. Simple Random Sampling:**
 Best Model: Logistic Regression
-
 Accuracy: 0.757642
 
 
 **2.Systematic Sampling:**
 Best Model: Logistic Regression
-
 Accuracy: 0.657205
 
 
 **3.Stratified Sampling:**
 Best Model: Logistic Regression
-
 Accuracy: 0.674672	
 
 
 **4.Cluster Sampling:**
 Best Model: Logistic Regression
-
 Accuracy: 0.670306
 
 
 **5.Bootstrap Sampling:**
 Best Model: Logistic Regression
-
 Accuracy: 0.823144
 
 
-### Logistic Regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap Sampling having the highest accuracy of 0.823144.
+**Logistic Regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap Sampling having the highest accuracy of 0.823144.**
