@@ -27,7 +27,7 @@ This Notebook demonstrates the creation of five different samples using various 
 * **Simple Random Sampling:** Randomly selecting a specified number of instances from the dataset.<br/>
 * **Stratified Sampling:** Creating samples from each class separately to maintain the original class distribution.<br/>
 * **Cluster Sampling:** Dividing the dataset into clusters and selecting entire clusters randomly.<br/>
-* **Systematic Sampling:** Selecting every k-th instance from the dataset.<br/>
+* **Systematic Sampling:** Selects every k-th instance from the dataset.<br/>
 * **Bootstrap Sampling:** Each bootstrap sample contains elements from both class 0 and class 1.<br/>
 
 I applied the following models to our samples and calculated their accuracies for each sample:<br/>
@@ -43,7 +43,7 @@ Following this, I examined where different models were employed on separate samp
 
 ## Conclusion
 
-**Logistic Regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap Sampling having the highest accuracy of 0.823144.**<br/>
+**Logistic regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap sampling having the highest accuracy of 0.844978.**<br/>
 **The accuracy for Logistic Regression is as follows:**
 
 ![Accuracy Table_for_Logistic_regression](accuracy_lr.png)<br/>
