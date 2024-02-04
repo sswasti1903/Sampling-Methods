@@ -30,7 +30,7 @@ This Notebook demonstrates the creation of five different samples using various 
 * **Systematic Sampling:** Selecting every k-th instance from the dataset.<br/>
 * **Bootstrap Sampling:** Each bootstrap sample contains elements from both class 0 and class 1.<br/>
 
-I applied the following models to our samples and calculated their accuracies for each sample:<br/><br/>
+I applied the following models to our samples and calculated their accuracies for each sample:<br/>
 1. Logistic Regression<br/>
 2. KNN<br/>
 3. Random Forest<br/>
@@ -43,7 +43,7 @@ Following this, I examined where different models were employed on separate samp
 
 ## Conclusion
 
-**Logistic Regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap Sampling having the highest accuracy of 0.823144.**
+**Logistic Regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap Sampling having the highest accuracy of 0.823144.**<br/>
 **The accuracy for Logistic Regression is as follows:**
 
 ![Accuracy Table_for_Logistic_regression](accuracy_lr.png)<br/>
