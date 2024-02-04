@@ -9,6 +9,7 @@ The credit card fraud dataset used in this project is sourced from the following
 This dataset comprises 772 rows and 31 columns, with features such as Time, V1-V28, Amount, and Class. The 'Class' column indicates whether a transaction is fraudulent (Class=1) or not (Class=0).
 
 **Dataset- Balanced/Unbalanced**
+
 To check whether the dataset is balanced, a bar graph is plotted using Matplotlib.
 
 
@@ -19,6 +20,7 @@ I applied different techniques, as the graph shows that the dataset is unbalance
 After balancing, the bar graph of the dataset looks like this:
 
 ![Balanced Dataset](balanced.png)<br/>
+
 ## Sampling
 
 This Notebook demonstrates the creation of five different samples using various sampling techniques:<br/>
