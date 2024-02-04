@@ -12,11 +12,13 @@ This dataset comprises 772 rows and 31 columns, with features such as Time, V1-V
 To check whether the dataset is balanced, a bar graph is plotted using Matplotlib.
 
 
-![Unbalanced Dataset](Unbalanced.png)<br/>
+![Unbalanced Dataset](unbalanced.png)<br/>
 
 I applied different techniques, as the graph shows that the dataset is unbalanced.
 
+After balancing, the bar graph of the dataset looks like this:
 
+![Balanced Dataset](balanced.png)<br/>
 ## Sampling
 
 This Notebook demonstrates the creation of five different samples using various sampling techniques:<br/>
@@ -35,7 +37,7 @@ I applied the following models to our samples and calculated their accuracies fo
 
 Following this, I examined where different models were employed on separate samples. Subsequently, the accuracies for each combination of model and sample were documented and systematically arranged in the tabular format presented below:<br/>
 
-![Accuracy Table](AccuracyTable.png)<br/>
+![Accuracy Table](accuracy.png)<br/>
 
 ## Conclusion
 
@@ -66,3 +68,5 @@ Accuracy: 0.823144
 
 
 **Logistic Regression consistently achieved the highest accuracy across different sampling techniques, with Bootstrap Sampling having the highest accuracy of 0.823144.**
+
+![Accuracy Table_for_Logistic_regression](accuracy_lr.png)<br/>
